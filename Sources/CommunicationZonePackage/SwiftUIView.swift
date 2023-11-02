@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-public struct SwiftUIView: View {
+public struct CommunicationZoneView: View {
+    
     init(){
-        CommunicationZoneSDK().doSomeWork()
+        CommunicationZoneSDK.doSomeWork()
         
     }
     @available(iOS 13.0.0, *)
