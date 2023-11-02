@@ -14,7 +14,7 @@ public struct CommunicationZoneView: View {
         
     }
     public var body: some View {
-        Text("Hello, World!")
+        Text("This is a Communication zone package!")
     }
 }
 
