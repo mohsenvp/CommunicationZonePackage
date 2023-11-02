@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+public struct SwiftUIView: View {
+    init(){
+        CommunicationZoneSDK().doSomeWork()
+    }
+    @available(iOS 13.0.0, *)
+    public var body: some View {
+        Text("Hello, World!")
     }
 }
 
-#Preview {
-    SwiftUIView()
-}
