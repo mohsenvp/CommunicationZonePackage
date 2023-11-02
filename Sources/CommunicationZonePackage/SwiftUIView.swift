@@ -10,6 +10,7 @@ import SwiftUI
 public struct SwiftUIView: View {
     init(){
         CommunicationZoneSDK().doSomeWork()
+        
     }
     @available(iOS 13.0.0, *)
     public var body: some View {

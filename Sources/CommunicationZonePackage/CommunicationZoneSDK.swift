@@ -9,6 +9,6 @@ import Foundation
 
 public struct CommunicationZoneSDK {
     public func doSomeWork(){
-        print("Communication Zone 0.0.1")
+        print("Communication Zone 0.0.2")
     }
 }
