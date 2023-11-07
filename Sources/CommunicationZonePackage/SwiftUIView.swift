@@ -11,10 +11,9 @@ public struct CommunicationZoneView: View {
     
     public init(){
         CommunicationZoneSDK.doSomeWork()
-        
     }
     public var body: some View {
-        Text("This is a Communication zone package!")
+        Text("This is a Communication zone package! V 0.0.6")
     }
 }
 
